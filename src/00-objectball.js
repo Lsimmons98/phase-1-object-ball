@@ -137,11 +137,3 @@ const teamNames = game => [game.home.teamName, game.away.teamName]
 const numPointsScored = (playerName) => getPlayerStats(playerName).points
 
 const shoeSize = (playerName) => getPlayerStats(playerName).shoe
-
-
-console.log(getPlayerStats('Brendan Haywood'))
-console.log(numPointsScored('Brendan Haywood'))
-console.log(shoeSize('Brendan Haywood'))
-console.log(teamColors('Charlotte Hornets'));
-console.log(teamNames(game));
-
